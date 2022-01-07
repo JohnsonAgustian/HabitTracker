@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".AddHabit"
+android:padding="16dp">
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/addHabitName"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Habit Name"
+        app:boxBackgroundColor="@color/white"
+        app:startIconDrawable="@drawable/ic_baseline_edit_24">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/add_ed_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.skydoves.powerspinner.PowerSpinnerView
+        android:id="@+id/add_ed_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:boxBackgroundColor="@color/white"
+        app:startIconDrawable="@drawable/ic_baseline_category_24"
+        android:hint="Category"
+        android:background="@color/white"
+        android:drawableTint="@color/black"
+        ></com.skydoves.powerspinner.PowerSpinnerView>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="time in second (Duration)"
+        app:boxBackgroundColor="@color/white"
+        app:startIconDrawable="@drawable/ic_baseline_access_time_24">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/add_ed_minutes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:inputType="number"
+            android:lines="1" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/sp_prioritas"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:entries="@array/prioritas" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/openTimeDialog"
+        style="@style/Base.Widget.AppCompat.ImageButton"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:onClick="showTimePicker"
+        android:src="@drawable/ic_baseline_timer_24" />
+
+    <TextView
+        android:id="@+id/add_tv_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start time" />
+</LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string-array name="prioritas">
+        <item>Tinggi</item>
+        <item>Sedang</item>
+        <item>Rendah</item>
+    </string-array>
+    <string-array name="kategori">
+        <item>Study</item>
+        <item>Entertainment</item>
+        <item>Health</item>
+        <item>Reading</item>
+        <item>Social</item>
+        <item>Sports</item>
+        <item>Art</item>
+    </string-array>
+
+</resources>

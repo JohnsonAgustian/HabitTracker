@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "489221912864",
+    "project_id": "habittodo-1b560",
+    "storage_bucket": "habittodo-1b560.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489221912864:android:adeafcdf2036f61f687f45",
+        "android_client_info": {
+          "package_name": "com.example.habitstodotracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "489221912864-m5r9a2v5bg14ji0dggdqirehk3kmrs5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5qmH8VVuGf-PvZQ8q1ovVVjSEGzK8-7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "489221912864-m5r9a2v5bg14ji0dggdqirehk3kmrs5t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

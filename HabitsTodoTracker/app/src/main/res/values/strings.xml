@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HabitsTodoTracker</string>
+    <string name="btnStart_text">Get Started</string>
+    <string name="btnRegister_text">Create an account</string>
+    <string name="btnLogin_text">Sign In</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
